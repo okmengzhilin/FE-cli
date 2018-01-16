@@ -1,0 +1,25 @@
+
+
+.header{
+    height: 70px;
+    box-shadow: 0 1px 12px 0 rgba(0,0,0,0.1);
+    position: relative;
+    line-height: 70px;
+
+
+    .rect{
+        width: 28px;
+        height: 28px;
+        background: #2F2F2F;
+        position: absolute;
+        top: 21px;
+        left: 24px;
+    }
+
+    .AIName{
+        font-family: "SimHei";
+        color:$textColorLevel1;
+        font-size: 20px;
+        margin-left: 68px;
+    }
+}

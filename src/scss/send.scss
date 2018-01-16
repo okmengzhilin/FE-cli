@@ -1,0 +1,28 @@
+
+
+.send{
+    box-sizing: border-box;
+    height: 80px;
+    padding: 0 80px;
+    position: relative;
+    .speak{
+        position: absolute;
+        top: 24px;
+        left: 24px;
+        cursor: pointer;
+    }
+    .input-box{
+        height: 40px;
+        border: none;
+        outline: none;
+        font-size: 14px;
+        margin:20px 0;
+        width: 100%;
+    }
+    .send-btn{
+        position: absolute;
+        top: 24px;
+        right: 24px;
+        cursor: pointer;
+    }
+}

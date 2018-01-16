@@ -1,0 +1,44 @@
+.side{
+    padding: 0 24px;
+    height: 100%;
+    width: 360px;
+    overflow: auto;
+    .side-item{
+        .item-title{
+            display: block;
+            padding: 20px 0;
+            font-size:14px; 
+        }
+
+        .item-menu-box{
+            a{
+                display: block;
+            }
+            .favorite-item{
+                margin-bottom: 11px;
+            }
+            .menu-item{
+                display: inline-block;
+                position: relative;
+                margin-left: 6px;
+                height: 140px;
+                
+                .menu-name{
+                    display: block;
+                    width: 100px;
+                    left: 0;
+                    bottom: 14px;
+                    font-size: 14px;
+                    color: #ffffff;
+                    text-align: center;
+                    position: absolute;
+                    cursor: pointer;
+                }
+
+                &:first-child{
+                    margin-left: 0;
+                }
+            }
+        }
+    }
+}

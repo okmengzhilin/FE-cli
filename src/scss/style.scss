@@ -1,0 +1,38 @@
+
+
+
+$textColorLevel1 : #333333;
+
+@import "./header.scss";
+@import "./side.scss";
+@import "./dialog.scss";
+@import "./message.scss";
+@import "./send.scss";
+
+*{
+    font-family: "微软雅黑";
+}
+
+html,body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.container{
+    height: 100%;
+    min-width: 960px;
+
+    .left{
+        height: 100%;
+        float: left;
+    }
+
+    .right{
+        width: 360px;
+        height: 100%;
+        float: right;
+        box-shadow: inset 1px 0 0 0 #DBDBDB;
+    }
+}
